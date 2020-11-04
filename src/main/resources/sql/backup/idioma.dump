@@ -1,0 +1,128 @@
+\connect attinae_db
+--
+-- Data for Name: idioma; Type: TABLE DATA; Schema: academico; Owner: attinae_user
+--
+
+COPY academico.idioma (idioma_id, descripcion, estado_id, creadopor, creado, actualizadopor, actualizado, activo, eslocal) FROM stdin;
+1	Azerí (Azərbaycan) - AZ	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+2	Afrikaans (Afrikaans) - AF	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+3	Albanés (Shqip) - SQ	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+4	Alemán (Deutsch) - DE	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+5	Alsaciano (Alemannisch) - ALS	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+6	Amárico (አማርኛ) - AM	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+7	Anglosajón (Anglo Saxon) - ANG	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+8	Árabe (العربية) - AR	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+9	Aragonés (Aragonés) - AN	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+10	Armenio (Հայերեն) - HY	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+11	Asturiano (Asturianu) - AST	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+12	Aymara (Aymar) - AY	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+13	Bajo sajón (Plattdüütsch) - NDS	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+14	Bengalí (বাংলা) - BN	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+15	Bielorruso (Беларуская) - BE	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+16	Birmano (Myanmasa) - MY	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+17	Bosnio (Bosanski) - BS	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+18	Bretón (Brezhoneg) - BR	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+19	Búlgaro (Български) - BG	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+20	Canarés (ಕನ್ನಡ) - KN	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+21	Catalán (Català) - CA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+22	Chamorro (Chamoru) - CH	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+23	Checo (Česky) - CS	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+24	Cheroqui (ᏣᎳᎩ) - CHR	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+25	Chino mandarín (中文) - ZH	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+26	Coreano (한국어) - KO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+27	Corso (Corsu) - CO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+28	Croata (Hrvatski) - HR	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+29	Curdo (Kurdî) - KU	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+30	Danés (Dansk) - DA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+31	Eslovaco (Slovenčina) - SK	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+32	Esloveno (Slovenščina) - SL	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+34	Esperanto (Esperanto) - EO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+35	Estonio (Eesti) - ET	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+36	Euskera (Euskara) - EU	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+37	Feroés (Føroyskt) - FO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+38	Fiyiano (Na Vosa Vakaviti) - FJ	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+39	Finlandés (Suomi) - FI	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+40	Francés (Français) - FR	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+41	Frisón (Frysk) - FY	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+42	Galés (Cymraeg) - CY	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+43	Gallego (Galego) - GL	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+44	Georgiano (ქართული) - KA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+45	Griego moderno (Ελληνικά) - EL	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+46	Guaraní (Avañe'ẽ) - GN	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+47	Gujaratí (ગુજરાતી) - GU	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+48	Hebreo israelí (עברית) - HE	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+49	Hindi (हिन्दी) - HI	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+50	Holandés (Nederlands) - NL	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+51	Húngaro (Magyar) - HU	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+52	Ido (Ido) - IO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+53	Igbo (Igbo) - IG	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+54	Indonesio (Bahasa Indonesia) - ID	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+55	Inglés (English) - EN	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+56	Inglés simplificado (Simple English) - SIMPLE	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+57	Interlingua (IALA) (Interlingua) - IA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+58	Irlandés (Gaeilge) - GA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+59	Islandés (Íslenska) - IS	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+60	Italiano (Italiano) - IT	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+61	Japonés (日本語) - JA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+62	Javanés (Bahasa Jawa) - JV	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+63	Kazako (қазақша) - KK	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+64	Laosiano ((ລາວ) - LO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+65	Latín (Latina) - LA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+66	Letón (Latviešu) - LV	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+67	Lingala (Lingala) - LN	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+68	Lituano (Lietuvių) - LT	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+69	Luxemburgués (Lëtzebuergesch) - LB	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+70	Macedonio (Македонски) - MK	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+71	Malabar (മലയാളം) - ML	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+72	Malayo (Bahasa Melayu) - MS	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+73	Malgache (Malagasy) - MG	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+74	Maltés (bil-Malti) - MT	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+75	Manés (Gaelg) - GV	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+76	Maorí (Māori) - MI	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+77	Marati (मराठी) - MR	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+78	Moldavo (Moldoveana) - MO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+79	Mongol (Монгол) - MN	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+80	Náhuatl (Nahuatl) - NAH	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+81	Nauruano (Ekakairũ Naoero) - NA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+82	Noruego (Norsk) - NO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+83	Occitano (Occitan) - OC	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+84	Papiamento (Papiamento) - PAP	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+85	Persa moderno (فارسی) - FA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+86	Polaco (Polski) - PL	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+87	Portugués (Português) - PT	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+88	Punjabí (ਪੰਜਾਬੀ) - PA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+89	Quechua (Runa Simi) - QU	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+90	Quirguiz (Kırgızca) - KY	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+91	Romanche (Rumantsch) - RM	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+92	Rumano (Română) - RO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+93	Ruso (Русский) - RU	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+94	Sardo (Sardu) - SC	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+95	Serbio (Српски / Srpski) - SR	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+96	Sesotho (seSotho) - ST	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+97	Siciliano (Sicilianu) - SCN	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+98	Somalí (Soomaaliga) - SO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+99	Sueco (Svenska) - SV	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+100	Swahili (Kiswahili) - SW	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+101	Tagalo (Tagalog) - TL	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+102	Tailandés (ไทย) - TH	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+103	Tamil (தமிழ்) - TA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+104	Tártaro (Tatarça) - TT	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+105	Tártaro de Crimea (Qırım Tatarca) - CRH	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+106	tegulú (తెలుగు) - TE	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+107	Tibetano (བོད་ཡིག) - BO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+108	Turco (Türkçe) - TR	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+109	Turcomano (تركمن / Туркмен) - TK	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+110	Ucraniano (Українська) - UK	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+111	Urdu (اردو) - UR	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+112	Uzbeko (Ўзбек) - UZ	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+113	Valón(Walon) - WA	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+114	Vietnamita (Tiếng Việt) - VI	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+115	Volapuk (Volapük) - VO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+116	Xhosa (isiXhosa) - XH	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+117	Yidish (ייִדיש) - YI	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+118	Yoruba (Yorùbá) - YO	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+119	Zulú (isiZulu) - ZU	1	1	2016-11-20 19:53:10.694364	\N	\N	S	f
+33	Español (Español) - ES	1	1	2016-11-20 19:53:10.694364	\N	\N	S	t
+120	aaa3	1	0	2017-08-02 17:40:53.556	0	2017-08-02 17:56:52.651	N	f
+\.
+

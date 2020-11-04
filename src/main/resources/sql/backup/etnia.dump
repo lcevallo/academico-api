@@ -1,0 +1,40 @@
+\connect attinae_db
+--
+-- Data for Name: etnia; Type: TABLE DATA; Schema: academico; Owner: attinae_user
+--
+
+COPY academico.etnia (etnia_id, descripcion, estado_id, creadopor, creado, actualizadopor, actualizado, activo) FROM stdin;
+3	Chachis	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+4	Cholo pescador	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+5	Epera	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+6	Huancavilcas	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+7	Montubios	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+8	Cañaris	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+9	Chibuelos	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+10	Chola cuencana	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+11	Colta	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+12	Kayambi	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+13	Natabuela	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+14	Negros del Valle del Chota	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+15	Otavalos	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+16	Ozogoche	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+17	Panzaleos	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+18	Quisapincha	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+19	Quitu cara	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+20	Salasacas	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+21	Saraguros	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+22	Tsachilas	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+23	Ai’Cofan	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+24	Cofán	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+25	Shuar	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+26	Achuar	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+27	Huaorani	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+28	Tagaeri y Taromenane	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+29	Siona	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+30	Secoya	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+31	Zápara	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+32	Shiwiar	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+1	Awa	1	1	2016-11-20 18:00:31.535624	\N	\N	S
+2	Afro esmeraldeños	1	1	2016-11-20 18:00:52.915479	\N	\N	S
+\.
+

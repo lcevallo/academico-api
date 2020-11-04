@@ -1,0 +1,17 @@
+\connect attinae_db
+--
+-- Data for Name: authority; Type: TABLE DATA; Schema: seguridad; Owner: attinae_user
+--
+
+COPY seguridad.authority (id, authorities) FROM stdin;
+1	usuario:read
+2	usuario:update
+3	usuario:create
+4	usuario:delete
+\.
+
+--
+-- Name: authority_id_seq; Type: SEQUENCE SET; Schema: seguridad; Owner: attinae_user
+--
+
+SELECT pg_catalog.setval('seguridad.authority_id_seq', 5, true);

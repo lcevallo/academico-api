@@ -1,0 +1,14 @@
+\connect attinae_db
+--
+-- Data for Name: usuario; Type: TABLE DATA; Schema: seguridad; Owner: attinae_user
+--
+
+COPY seguridad.usuario (usuario_id, login, persona_id, fecha_ultimo_ingreso, estado_id, creadopor, creado, actualizadopor, actualizado, activo, password, pregunta_1, respuesta_1, pregunta_2, respuesta_2, pregunta_3, respuesta_3, is_active, is_not_locked, last_login_date_display) FROM stdin;
+1	admin	1	\N	1	1	26/9/2020 11:00	\N	\N	S	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+\.
+
+--
+-- Name: pk_usuario_id_seq; Type: SEQUENCE SET; Schema: seguridad; Owner: attinae_user
+--
+
+SELECT pg_catalog.setval('seguridad.pk_usuario_id_seq', 2, true);

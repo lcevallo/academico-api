@@ -1,0 +1,16 @@
+\connect attinae_db
+--
+-- Data for Name: identidadgenero; Type: TABLE DATA; Schema: academico; Owner: attinae_user
+--
+
+COPY academico.identidadgenero (identidadgenero_id, descripcion, estado_id, creadopor, creado, actualizadopor, actualizado, activo) FROM stdin;
+1	Ninguno	1	1	2016-11-26 16:32:02.956	\N	\N	S
+2	Gay	1	1	2016-11-26 17:04:46.293	\N	\N	S
+3	Lesbiana	1	1	2016-11-26 17:05:23.28	\N	\N	S
+4	Bisexual	1	1	2016-11-26 17:05:52.435	\N	\N	S
+5	Intersex	1	1	2016-11-26 17:06:15.776	\N	\N	S
+6	Transexual	1	1	2016-11-26 17:06:40.653	\N	\N	S
+7	Travesti	1	1	2016-11-26 17:07:01.618	\N	\N	S
+8	Transgenero	1	1	2016-11-26 17:11:53.635	\N	\N	S
+\.
+

@@ -1,0 +1,30 @@
+jwt:
+  secret: 'z?,\Lpvp5Z\Km}M4xyN*'
+server:
+  port: 8081
+ec:
+  edu:
+    ulvr:
+      report-location: classpath:reports
+      logo-location: classpath:images
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/attinae_db
+    username: fenix_user
+    password: FenixIkki
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: true
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults : false
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+    date-format: yyyy-MM-dd
+    time-zone: America/Guayaquil
+    locale: es_EC

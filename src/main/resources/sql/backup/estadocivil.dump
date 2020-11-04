@@ -1,0 +1,14 @@
+\connect attinae_db
+--
+-- Data for Name: estadocivil; Type: TABLE DATA; Schema: academico; Owner: attinae_user
+--
+
+COPY academico.estadocivil (estadocivil_id, descripcion, estado_id, creadopor, creado, actualizadopor, actualizado, activo) FROM stdin;
+1	Soltero (a)	1	1	2016-11-20 20:00:54.079904	\N	\N	S
+2	Casado (a)	1	1	2016-11-20 20:00:54.079904	\N	\N	S
+3	Divorciado (a)	1	1	2016-11-20 20:00:54.079904	\N	\N	S
+4	Unión Libre	1	1	2016-11-20 20:00:54.079904	\N	\N	S
+5	Viudo (a)	1	1	2016-11-20 20:00:54.079904	\N	\N	S
+6	aaa55	1	0	2017-08-08 10:38:57.409	0	2017-08-08 10:48:41.087	N
+\.
+

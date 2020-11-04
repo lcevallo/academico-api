@@ -1,0 +1,10 @@
+\connect attinae_db
+
+--
+-- Data for Name: persona; Type: TABLE DATA; Schema: academico; Owner: attinae_user
+--
+
+COPY academico.persona (persona_id, tipopersona, documentoidentificacion, nombre1, nombre2, apellido1, apellido2, fechanacimiento, direccion, telefonoconvencional, telefonocelular, operadora_fk, emailpersonal, emailinstitucional, nacionalidad_id, activo, creadopor, creado, actualizadopor, actualizado, fechaingreso, estado_id, tipodocumento_id, sexo_id, identidadgenero_id, estadocivil_id, tiposangre, tipodiscapacidad_id, porcentajediscapacidad, descripciondiscapacidad, idioma_id, etnia_id, paisnacimiento_id, provincianacimiento_id, ciudadnacimiento_id, parroquianacimiento_id, personacontacto, telefonoconctacto, paisdomicilio_id, provinciadomicilio_id, ciudaddomicilio_id, parroquiadomicilio_id, barrio, referenciadireccion, numerocarnetdiscapacidad) FROM stdin;
+1	D	0915740138	Luis	Alberto	Cevallos	Cavero	1980-06-30	Sauces 9 Mz r 18 Villa 7	045689898	0978454654	1	lcevallo@gmail.com	lcevallo@gmail.com	1	S	0	2017-02-05 13:32:27.207584	1	2018-10-29 12:51:34.680566	2017-02-05	1	1	1	1	2	O+	\N	4	Medio Cegaton	33	4	104	1635	57371	5	Heide Jaramillo	0978454654	104	1635	57371	12		En algun lugar de la mancha	\N
+\.
+

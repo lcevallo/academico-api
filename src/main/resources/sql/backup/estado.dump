@@ -1,0 +1,34 @@
+\connect attinae_db
+--
+-- Data for Name: pais; Type: TABLE DATA; Schema: academico; Owner: attinae_user
+--
+COPY seguridad.estado (estado_id, descripion, ambito) FROM stdin DELIMITER ';';
+1;Activo;0
+2;Inactivo;0
+3;Abierto;1
+4;Cerrado;1
+5;Planificado;1
+6;Vigente;2
+7;No Vigente;2
+8;Planificada;2
+9;Prerregistro sin OP;3
+10;Prerregistro con RB;3
+11;Registro Verificado;3
+12;Aprobado;3
+13;Reprobrado;3
+14;Retirado;3
+15;Generada;4
+16;Pagada;4
+17;Anulada;4
+18;Registro sin verificar;3
+19;No Revisado;5
+20;Revisado;5
+21;Titular;6
+22;Suplente;6
+23;Matriculado;7
+24;Retirado;7
+25;Aprobado;7
+26;Reprobado;7
+27;Registrado;8
+28;Rectificado;8
+\.

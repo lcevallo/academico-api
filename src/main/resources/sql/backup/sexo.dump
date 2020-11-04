@@ -1,0 +1,15 @@
+\connect attinae_db
+--
+-- Data for Name: sexo; Type: TABLE DATA; Schema: academico; Owner: attinae_user
+--
+
+COPY academico.sexo (sexo_id, descripcion, estado_id, creadopor, creado, actualizadopor, actualizado, activo) FROM stdin;
+1	Hombre	1	1	2016-11-20 20:01:29.918972	0	2017-05-19 17:23:01.3485	S
+2	Mujer	1	1	2016-11-20 20:01:29.918972	\N	\N	S
+\.
+
+--
+-- Name: pk_sexo_id_seq; Type: SEQUENCE SET; Schema: academico; Owner: attinae_user
+--
+
+SELECT pg_catalog.setval('academico.pk_sexo_id_seq', 3, true);
