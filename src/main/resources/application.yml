@@ -1,17 +1,17 @@
 jwt:
   secret: 'z?,\Lpvp5Z\Km}M4xyN*'
 server:
-  port: 8081
+  port: 8080
 ec:
   edu:
     ulvr:
       report-location: classpath:reports
-      logo-location: classpath:images
+      logo-location: classpath:imagesattinae_user
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/attinae_db
-    username: fenix_user
-    password: FenixIkki
+    username: attinae_user
+    password: 'AttinaeBasePass-'
   jpa:
     hibernate:
       ddl-auto: none

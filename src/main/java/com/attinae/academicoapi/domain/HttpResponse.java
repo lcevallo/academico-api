@@ -2,7 +2,6 @@ package com.attinae.academicoapi.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.*;
 import org.springframework.http.HttpStatus;
 
 import java.util.Date;

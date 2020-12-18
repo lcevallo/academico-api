@@ -59,7 +59,7 @@ public class UsuarioResource extends ExceptionHandling {
 
 
     @PostMapping("/login")
-    public ResponseEntity<Usuario> registrar(@RequestBody @Valid Login login) throws UsuarioNotFoundException {
+    public ResponseEntity<Usuario> login(@RequestBody @Valid Login login) throws UsuarioNotFoundException {
         authenticate(login.getUsuario(),login.getPassword());
 
         Usuario loginuser = this.usuarioService.findUsuarioByLogin(login.getUsuario()).get();
@@ -130,8 +130,8 @@ public class UsuarioResource extends ExceptionHandling {
                                               @RequestParam("respuesta2") String respuesta2,
                                               @RequestParam("pregunta3") String pregunta3,
                                               @RequestParam("respuesta3") String respuesta3,
-                                              @RequestParam("active") Boolean active,
-                                              @RequestParam("notLocked") Boolean notLocked,
+                                              @RequestParam("active") String active,
+                                              @RequestParam("notLocked") String notLocked,
                                               @RequestParam(value = "profileImage", required = false) MultipartFile profileImage
     )
             throws UsernameExistsException, IOException, UsuarioNotFoundException {
@@ -150,8 +150,8 @@ public class UsuarioResource extends ExceptionHandling {
                 .respuesta2(respuesta2)
                 .pregunta3(pregunta3)
                 .respuesta3(respuesta3)
-                .isActive(active)
-                .isNotLocked(notLocked)
+                .isActive(Boolean.parseBoolean(active))
+                .isNotLocked(Boolean.parseBoolean(notLocked))
                 .build();
 
         Usuario updatedUser = this.usuarioService.updateUser(usuarioId,usuario, profileImage);
